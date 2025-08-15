@@ -1,0 +1,552 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color:black;
+  background-image: url('Background.jpg');  /* 🔥 Background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+
+.hero {
+  border-radius: 40px;
+  margin: 20px 20px 20px 20px;
+ 
+  text-align: center;
+  text-shadow: 4px 4px 3px #000000;
+  padding: 1rem 1rem;
+}
+
+
+.hero h1 {
+  color: #f4f4f4;
+  margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+  
+}
+
+.subheading {
+  font-size: 1.5rem;
+  margin: 0.2rem 0;
+  color: bisque;
+}
+
+.location {
+  font-size: 1.2rem;
+  
+  color: bisque;
+
+}
+
+.links {
+  margin-top: 1rem;
+  
+}
+
+.links a {
+  margin: 0.5rem;
+  color: #fdfdfd;
+  font-size: 1rem;
+  padding: 0px 18px 2px 8px ;
+}
+
+
+
+
+.section {
+  margin: 1rem;
+  padding: 1rem 0.1rem 1rem 0.1rem;
+  text-align: center;
+  border-radius: 10px;
+  
+}
+
+
+
+.white-bg {
+  background-color:rgba(252, 252, 252, 0.5);
+  box-shadow:5px 4px 10px #000;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  color: orange;
+  margin: 1 rem;
+  text-shadow: 3px 3px 5px #000000;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.grid div {
+  background-color: #dbeafe;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+}
+
+.projects, .experience {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  color: red
+}
+
+.projects div, .experience div {
+  margin-bottom: 2rem;
+}
+
+.projects h3, .experience h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  font-family: Copperplate, Papyrus, fantasy ;
+}
+
+.projects p, .experience p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #d5d5d5;
+}
+
+.date {
+  font-style: italic;
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+  color: #666;
+}
+
+.education {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.education li {
+  margin-bottom: 1rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 0.85rem;
+  color: #c9c9c9;
+}
+
+hr.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top:  double #fdfdfd82;
+    color: #000000;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0.01em 0.5em;
+    background-color: #ffffff;
+    border-radius:60px ;
+    box-shadow: 2px 2px 2px black;
+    
+}
+
+.orange{
+    background-color: orangered;
+    
+}
+.blue{
+    background-color: rgb(90, 61, 255);
+    
+}
+
+
+
+/* From Uiverse.io by eslam-hany */ 
+.book {
+  position: relative;
+  border-radius: 10px;
+  width: 220px;
+  height: 300px;
+  background-color:#2c599d;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  -webkit-transform: preserve-3d;
+  -ms-transform: preserve-3d;
+  transform: preserve-3d;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000;
+  display: inline-block;
+  flex-grow: 1;         /* Take available horizontal space */
+  flex-basis: 0;        /* Allow flexible width */
+  min-width: 220px;
+  max-width: 350px;     /* Prevent cards from being too narrow */
+  margin: 10px;         /* Optional extra spacing between cards */ 
+  text-align: center;
+  text-transform: initial;
+  font-family: Lucida Handwriting, cursive;
+  
+ 
+ 
+  
+}
+
+.cover {
+  top: 0;
+  position: absolute;
+  background-color: #ee6700;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: 1px underline double;
+  
+   
+   
+
+}
+
+.book:hover .cover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: rotatey(-90deg);
+  -ms-transform: rotatey(-90deg);
+  transform: rotatey(-90deg);
+}
+
+p {
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  word-spacing: 5px;
+  
+}
+
+.book-container {
+  display: flex;         /* Layout children in a row */
+  gap: 20px;             /* Space between .book cards */
+  flex-wrap: wrap;       /* Allow wrapping on smaller screens */
+  padding: 20px;         /* Optional: spacing around the whole layout */
+}
+
+
+/* paper card */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+.card_image {
+  height: calc(13*1.2rem);
+  padding: 1.2rem 1.2rem 0;
+  position:relative;
+}
+.card_image:before,
+.card_image:after{
+  content: "";
+  position: absolute;
+  width: 20px;
+  left: 60%;
+  top: 0;
+  height: 45px;
+  background: #e6e6e6b8;
+  transform: rotate(45deg);
+}
+.card_image:after{
+  transform: rotate(-45deg);
+  top:auto;
+  bottom:-22px;
+  left:40%;
+}
+.card_image img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.cards_item {
+  filter:drop-shadow(0 0 5px rgba(0, 0, 0, 0.25));
+}
+
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-left: 30px;
+  background: repeating-linear-gradient(#0000 0 calc(1.2rem - 1px),#66afe1 0 1.2rem) right bottom /100% 100%,linear-gradient(red 0 0) 30px 0/2px 100% #fff;
+  background-repeat: no-repeat;
+  line-height: 1.2rem;
+  -webkit-mask:radial-gradient(circle .8rem at 2px 50%,#0000 98%,#000)0 0/100% 2.4rem;
+}
+
+.card_content {
+  padding: 1.2rem;
+}
+
+h2.card_title,p {
+  margin: 1.2rem 0;
+}
+h2.card_title {
+    font-size: 1.3em;
+    color: #ee6700;
+      text-decoration: underline;
+
+}
+body {
+  font-family:monospace;
+  ;
+}
+
+html {
+  font-size:15px;
+}
+
+.note{
+    color: orange;
+}
+
+/* social media button */
+
+
+h1 {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+  letter-spacing: 4px;
+  padding: 10px 0 25px;
+  color: #9c9c9c;
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  display: flex;
+  background: #e3edf7;
+  height: 65px;
+  width: 65px;
+  margin: 0 15px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: transform 0.5s;
+}
+
+a i {
+  font-size: 50px;
+  color: #777;
+  transition: transform 0.5s;
+}
+
+a:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.01);
+  transform: translateY(2px);
+}
+
+a:hover i {
+  transform: scale(0.9);
+}
+
+a:hover .fa-envelope {
+  color: #3b5998;
+}
+
+a:hover .fa-github {
+  color: #000000;
+}
+
+a:hover .fa-instagram {
+  color: #f14843;
+}
+
+a:hover .fa-linkedin-in {
+  color: #3b5998;
+}
+
+/* resume button */
+/* From Uiverse.io by Tsiangana */ 
+.botao {
+  width: 125px;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 1px rgba(107, 221, 215, 0.37);
+  padding: 5px 10px;
+  background-color: rgb(59, 190, 230);
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-weight: 505;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px rgba(59, 190, 230, 0.568));
+  transition: 0.5s linear;
+}
+
+.botao .mysvg {
+  display: none;
+}
+
+.botao:hover {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: 0.5s linear;
+}
+
+.botao:hover .texto {
+  display: none;
+}
+
+.botao:hover .mysvg {
+  display: inline;
+}
+
+.botao:hover::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 3px;
+  background-color: rgb(59, 190, 230);
+  margin-left: -20px;
+  animation: animate 0.9s linear infinite;
+}
+
+.botao:hover::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 100%;
+  height: 100%;
+  border: 3.5px solid transparent;
+  border-top: 3.5px solid #fff;
+  border-right: 3.5px solid #fff;
+  border-radius: 50%;
+  animation: animateC 2s linear infinite;
+}
+
+@keyframes animateC {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+section p{
+  font-size: 1.2rem;
+  text-align: center;
+  color: bisque;
+}
+section button{
+  font-size: 1.2rem;
+  text-align: center;
+ justify-content: center;
+
+}
+
+ .resume a{
+  display: flex;
+  background: #e3edf7;
+  height: 0px;
+  width: 0px;
+  margin: 0 auto;
+  padding: 10px 0px 0px 10px;
+  
+ }
+
+ 
